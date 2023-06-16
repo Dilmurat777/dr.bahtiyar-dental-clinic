@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f3563161.css",
+    "main.js": "/static/js/main.ffd9aec0.js",
+    "static/media/image4.png": "/static/media/image4.34b7f50152ed09147b80.png",
+    "static/media/image6.jpg": "/static/media/image6.00c356ec3819de79e72a.jpg",
+    "static/media/image7.jpg": "/static/media/image7.d8451959201c90f95b71.jpg",
+    "static/media/image5.jpg": "/static/media/image5.eb1cfdfcb6ec553aec8a.jpg",
+    "static/media/image8.jpeg": "/static/media/image8.505554ec36ab6a91c68b.jpeg",
+    "static/media/image1.jpeg": "/static/media/image1.e8f08585e3a7534815e0.jpeg",
+    "static/media/image9.jpg": "/static/media/image9.98c50560e7a4c0946a23.jpg",
+    "static/media/image2.jpg": "/static/media/image2.396a1b7ec0bd58ed883c.jpg",
+    "static/media/image3.jpg": "/static/media/image3.0dd76028b787023eef53.jpg",
+    "static/media/dentist.jpeg": "/static/media/dentist.7ae58b2bc400025f5116.jpeg",
+    "static/media/phone.svg": "/static/media/phone.de5e32c3a00d42b60b51243401bfe423.svg",
+    "static/media/tooth.png": "/static/media/tooth.f26d78ac31a58ef93fe3.png",
+    "static/media/youtube-logo-7123.svg": "/static/media/youtube-logo-7123.900cdd4f5191f9ab25b9cf202364a9e0.svg",
+    "static/media/instagram-logo-8869.svg": "/static/media/instagram-logo-8869.d9b585f08088c56757ef9df27a321645.svg",
+    "static/media/whatsapp-green-square-logo-15994.svg": "/static/media/whatsapp-green-square-logo-15994.768e6c69de8bedbc570ec6ef3e21a9b2.svg",
+    "static/media/facebook-square-blue-logo-15981.svg": "/static/media/facebook-square-blue-logo-15981.2a59373c596fd3cb167f27b667f14605.svg",
+    "static/media/calendar.svg": "/static/media/calendar.f43f671717d2c291e20d1f7b4ba84028.svg",
+    "static/media/map.svg": "/static/media/map.fee75aef1815560747c8d1a64cd2b931.svg",
+    "static/media/map1.svg": "/static/media/map1.d9f77ed9bd1a15679e535e5f064273b6.svg",
+    "index.html": "/index.html",
+    "main.f3563161.css.map": "/static/css/main.f3563161.css.map",
+    "main.ffd9aec0.js.map": "/static/js/main.ffd9aec0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3563161.css",
+    "static/js/main.ffd9aec0.js"
+  ]
+}
