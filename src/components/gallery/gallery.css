@@ -1,0 +1,61 @@
+.gallery {
+  padding: 60px 0;
+}
+
+
+.gallery__info {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 250px));
+  row-gap: 20px;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+
+
+.gallery__image {
+  display: inline-block;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  height: 100%;
+}
+
+
+/* Breakpoints */
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .gallery__info {
+    grid-template-columns: repeat(3, minmax(200px, 200px));
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+
+}
+
+/* For medium devices */
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    padding: 50px 0;
+  }
+
+  .gallery__info {
+    grid-template-columns: repeat(3, minmax(170px, 170px));
+  }
+}
+
+/* For medium devices */
+
+@media screen and (max-width: 576px) {
+  .gallery {
+    padding: 40px 0;
+  }
+
+  .gallery__info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {}

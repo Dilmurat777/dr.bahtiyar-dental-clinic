@@ -1,0 +1,30 @@
+.yandex {
+  padding: 60px 0;
+  background-color: rgba(210, 208, 208, 0.806);
+}
+
+
+.yandex__info {
+  
+}
+
+.yandex__map {
+  max-width: 1400px;
+  height: 500px;
+  justify-content: center;
+}
+
+
+.custom-balloon {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.custom-hint {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 3px;
+}

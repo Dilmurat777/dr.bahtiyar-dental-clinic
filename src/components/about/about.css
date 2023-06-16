@@ -1,0 +1,42 @@
+.about {
+  background-color: hsla(300, 4%, 82%, 0.63);
+  padding: 60px 0;
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.about__text {
+  padding: 5px;
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.8px;
+  line-height: 1.6;
+}
+
+
+/* Breakpoints */
+
+
+/* For medium devices */
+
+@media screen and (max-width: 768px){
+  .about__title {
+    margin-bottom: 30px;
+  }
+  
+  .about__text {
+    padding: 5px;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    font-size: 14px;
+  }
+}
+

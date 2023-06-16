@@ -1,0 +1,99 @@
+.home__bg {
+  display: inline-block;
+  background: url(../../assets//bg-img/dentist.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; 
+  object-fit: cover;
+}
+
+.home__info {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 150px auto 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #fff;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
+
+.home__title {
+  display: block;
+  color: rgba(55,0,255,1);
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.home__text {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 25px 0;
+  letter-spacing: 0.6px;
+}
+
+.home__btn {
+  padding: 10px 15px;
+  background: linear-gradient(45deg, rgba(55,0,255,1) 0%, rgba(0,0,0,0.78) 94%, rgba(0,0,0,0.77) 95%);
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  letter-spacing: .8px;
+}
+
+.home__btn:hover {
+  background: linear-gradient(45deg, rgba(60, 23, 195, 0.998) 0%, rgba(33, 33, 33, 0.78) 94%, rgba(46, 46, 46, 0.77) 95%);
+}
+
+.whats__app {
+  background-color: transparent;
+}
+
+
+
+
+/* Breakpoints */
+
+/* For medium devices */
+
+@media screen and (max-width: 768px){
+  .home__title {
+    font-size: 48px;
+  }
+}
+
+/* For medium devices */
+
+@media screen and (max-width: 576px){
+  .home__title {
+    font-size: 45px;
+  }
+
+  .home__text {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0;
+    letter-spacing: 0.5px;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px){
+  .home__text {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 0;
+    letter-spacing: 0.5px;
+  }
+}
